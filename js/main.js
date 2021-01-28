@@ -1,23 +1,23 @@
-function soma(n1, n2){
-    return n1 + n2
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = "Obrigado por Clicar!"
+    alert("Obrigado por clicar")
 }
-
-alert( soma( 5 , 10 ))
-
-function setReplace( frase, nome, novo_nome){
-    return frase.replace(nome,novo_nome)
+function redirecionar(){
+    window.open("https://digitalinnovation.one")
+    window.location.href = "https://digitalinnovation.one"
 }
-
-alert (setReplace("vai Japão", "Japão", "Brasil"))
-
-var validar = 0
-function validaIdade(idade){
-    if (idade <18)
-        return validar = false
-    else 
-        return validar = true
+function trocar(elemento){
+    //document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse"
+    //alert("trocar texto")
+    elemento.innerHTML = "Obrigado por passar o mouse"
 }
-
-var idade = prompt("qual é a sua idade?")
-validaIdade(idade)
-console.log(validar)
+function voltar(elemento){
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui"
+    elemento.innerHTML = "Passe o mouse aqui"
+}
+function load(){
+    alert("Página carregada!")
+}
+function funcaoChange(elemento){
+    console.log(elemento.value)
+}
