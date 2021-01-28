@@ -1,44 +1,23 @@
-/* First js 
-var nome = "Daniel Souza";
-var idade = 33;
-var idade2 = 10;
-var frase = "Japão é o melhor time do mundo"
-//alert(nome + " tem " + idade + " anos");
-alert(idade + idade2);
-console.log(nome);
-console.log("Idade " + idade);
-console.log("Idade2 " + idade2);
-console.log(frase.replace("Japão", "Brasil"))
-console.log(frase.toUpperCase())
-*/
-/* Second js
-var lista = ["maça", "pêra", "laranja"]
-var frutas = [{nome:"melância", cor:"Verde"}, {nome:"banana", cor:"amarela"}]
-console.log(lista)
-lista.push("uva")
-console.log(lista)
-lista.pop()
-console.log(lista)
-console.log(frutas)
-console.log(frutas[0].nome)
-*/
-var d = new Date()
-alert(d.getDay())
-alert(d.getFullYear())
-alert(d.getUTCDate())
-/*var idade = prompt("Qual é sua idade meu filho")
-//var idade = 17;
-if ( idade >= 18){
-    alert("maior de idade")
-}else{
-    alert("menor de idade")
+function soma(n1, n2){
+    return n1 + n2
 }
-var count
-for( count = 0; count <= 5; count ++){
-    alert(count)
-}*/
-/*while( count <=5){
-    console.log( count )
-    alert( count )
-    count++
-}*/
+
+alert( soma( 5 , 10 ))
+
+function setReplace( frase, nome, novo_nome){
+    return frase.replace(nome,novo_nome)
+}
+
+alert (setReplace("vai Japão", "Japão", "Brasil"))
+
+var validar = 0
+function validaIdade(idade){
+    if (idade <18)
+        return validar = false
+    else 
+        return validar = true
+}
+
+var idade = prompt("qual é a sua idade?")
+validaIdade(idade)
+console.log(validar)
