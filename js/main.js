@@ -11,6 +11,7 @@ console.log("Idade2 " + idade2);
 console.log(frase.replace("Japão", "Brasil"))
 console.log(frase.toUpperCase())
 */
+/* Second js
 var lista = ["maça", "pêra", "laranja"]
 var frutas = [{nome:"melância", cor:"Verde"}, {nome:"banana", cor:"amarela"}]
 console.log(lista)
@@ -20,3 +21,24 @@ lista.pop()
 console.log(lista)
 console.log(frutas)
 console.log(frutas[0].nome)
+*/
+var d = new Date()
+alert(d.getDay())
+alert(d.getFullYear())
+alert(d.getUTCDate())
+/*var idade = prompt("Qual é sua idade meu filho")
+//var idade = 17;
+if ( idade >= 18){
+    alert("maior de idade")
+}else{
+    alert("menor de idade")
+}
+var count
+for( count = 0; count <= 5; count ++){
+    alert(count)
+}*/
+/*while( count <=5){
+    console.log( count )
+    alert( count )
+    count++
+}*/
